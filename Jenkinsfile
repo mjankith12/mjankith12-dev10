@@ -9,7 +9,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/mjankith12/dev10/blob/main/Dockerfile'
+                    url: 'https://github.com/mjankith12/mjankith12-dev10.git'
             }
         }
 
